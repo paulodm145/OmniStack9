@@ -3,6 +3,7 @@ const express = require('express');
 
 /**IMPORTAR CONTROLADORES */
 const SessionController = require('./controllers/SessionController');
+const SpotController = require('./controllers/SpotController');
 
 const routes = express.Router();/**responsaveis pela rotas */
 
